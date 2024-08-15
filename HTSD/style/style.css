@@ -17,6 +17,7 @@ html {
 }
 
 .background_container {
+  position: relative;
   width: auto;
   height: 100vh;
   margin: 0;
@@ -28,7 +29,7 @@ html {
   margin: 16px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 .background_container .icon_container .icon img {
   width: 72px;
@@ -44,6 +45,7 @@ html {
   overflow: auto;
 }
 .Popup .Popup_content {
+  position: relative;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -70,7 +72,18 @@ html {
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin: auto;
+  margin: 4px;
   width: 100%;
   height: 100%;
+}
+.popupIcon .popupIcon_content .popupIcon_main {
+  display: flex;
+  gap: 16px;
+}
+.popupIcon .popupIcon_content .popupIcon_main img {
+  width: 72px;
+  height: 104.17px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 4px;
 }
